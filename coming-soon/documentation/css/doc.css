@@ -1,0 +1,190 @@
+/*
+Template Name: fibre
+Theme URL: http://www.egotype.com/fibre/
+Description: Landing Page
+Author: Egotype
+Author URL: http://www.egotype.com
+Version: 1.0
+Tags: Landing Page, HTML5, CSS3, Bootstrap, Jquery, Marketing Landing page,
+App Landing page, WebApp Landing page
+*/
+
+/* _____________________________________
+
+   Documentation
+   _____________________________________ */
+
+/* ----------------------------------
+   Hero
+   ---------------------------------- */
+
+.hero-docu {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.hero-docu h1 {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.hero-docu h1:before {
+  position: absolute;
+  width: 60px;
+  height: 1px;
+  top: 70px;
+  left: -15px;
+  content: "";
+  border-bottom: 2px solid #c94d00;
+}
+
+.hero-docu h1,
+.hero-docu p,
+.hero-docu a {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.logo-text-indent {
+  margin: 11px 0 0 100px;
+}
+
+.wrapper-docu {
+  padding: 50px 0 10px 0;
+}
+
+.wrapper-docu-sub {
+  padding-top: 50px;
+}
+
+/* ----------------------------------
+   Sidebar
+   ---------------------------------- */
+
+.affix {
+  top: 45px;
+  width: 240px;
+}
+
+.sidebar a,
+.sidebar a:link {
+  color: #bfbfbf;
+}
+
+.sidebar a:hover,
+.sidebar > a:focus {
+  color: #c94d00;
+}
+
+.sidebar li {
+  width: 100%;
+}
+
+.sidebar .active .nav > li.active:focus > a,
+.sidebar .active .nav > li.active:hover > a,
+.sidebar .active .nav > li.active > a {
+  margin-left: -2px;
+  color: #c94d00;
+  background-color: transparent;
+  border-left: 2px solid #c94d00;
+}
+
+.sidebar .active .nav > li > a {
+  padding-left: 28px;
+}
+
+.sidebar > li.active > a {
+  color: #c94d00;
+}
+
+.sidebar .nav {
+  display: none;
+}
+
+.sidebar .active .nav {
+  display: block;
+}
+
+/* ----------------------------------
+   Components
+   ---------------------------------- */
+
+.example {
+  position: relative;
+  padding: 55px 30px 30px;
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px 5px 0 0;
+}
+
+.example:after {
+  content: "EXAMPLE";
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  color: #444;
+}
+
+.example + .well {
+  margin-top: 0;
+  border-radius: 0;
+  border-top: none;
+}
+
+.well pre {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: transparent;
+  border: 0;
+  white-space: nowrap;
+}
+
+.well pre code {
+  font-size: inherit;
+  color: #444;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.note {
+  padding: 20px;
+  margin: 20px 0;
+  border-left: 5px solid #a94442;
+}
+
+/* ----------------------------------
+   Spacing
+   ---------------------------------- */
+
+.content h4 {
+  margin-bottom: 20px;
+}
+
+.content h5 {
+  margin-bottom: 15px;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+.m-b-0 {
+  margin-bottom: 0 !important;
+}
+
+.m-b-25 {
+  margin-bottom: 25px !important;
+}
+
+.m-b-35 {
+  margin-bottom: 35px !important;
+}
+
+.m-b-700 {
+  margin-bottom: 700px !important;
+}
+
+
+
