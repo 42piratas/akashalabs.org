@@ -1174,7 +1174,7 @@ body.vegas-container > .vegas-slide {
 
 .page-info {
     min-height: 700px;
-    height: 100%;
+    height: 100vh;
     padding-top: 20px;
     padding-bottom: 20px;
 }
