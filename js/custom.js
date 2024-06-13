@@ -180,6 +180,22 @@ $(document).ready(function () {
     }
 
 
+    function adjustText() {
+      const titleElement = document.getElementById('homeTitle');
+      if (window.innerWidth <= 600) {
+          titleElement.innerHTML = 'Connect\nLearn\nCreate';
+          // aumentar o espaçamento entre as linhas
+          titleElement.style.lineHeight = '1.5em';
+
+      } else {
+          titleElement.innerHTML = 'Connect, Learn, Create';
+      }
+    }
+
+    window.addEventListener('resize', adjustText);
+    window.addEventListener('load', adjustText);
+    
+
     /* _____________________________________
 
      Page Image BG Slider
