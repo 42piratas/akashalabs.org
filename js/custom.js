@@ -183,12 +183,12 @@ $(document).ready(function () {
     function adjustText() {
       const titleElement = document.getElementById('homeTitle');
       if (window.innerWidth <= 600) {
-          titleElement.innerHTML = 'Connect\nLearn\nCreate';
+          titleElement.innerHTML = 'Connect\nLearn\nBuild';
           // aumentar o espaçamento entre as linhas
           titleElement.style.lineHeight = '1.5em';
 
       } else {
-          titleElement.innerHTML = 'Connect, Learn, Create';
+          titleElement.innerHTML = 'Connect, Learn, Build';
       }
     }
 
